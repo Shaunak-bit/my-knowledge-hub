@@ -1,0 +1,150 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #282c34; /* Dark background */
+  color: #ffffff; /* Light text for contrast */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: white; /* Darker header background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #61dafb; /* Light blue for logo */
+}
+
+.btn {
+  background-color: #61dafb; /* Light blue background */
+  color: #000000; /* Black text */
+  border: none;
+  padding: 10px 20px; /* Increased padding for larger buttons */
+  margin: 5px; /* Add some margin for spacing */
+  border-radius: 10px; /* Rounded corners */
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Add transition for hover effect */
+}
+
+.btn:hover {
+  background-color: #3ab0e6; /* Darker blue on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem 2rem;
+  background-color: white; /* Slightly lighter dark background for contrast */
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #a0aec0; /* Lighter text for better readability */
+}
+
+.features {
+  padding: 2rem;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #61dafb;
+}
+
+.features p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #a0aec0;
+}
+
+.feature-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.feature-item {
+  max-width: 200px;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+/* Styles for the buttons */
+.get-started, .sign-in {
+  background-color: #ffffff; /* White background for buttons */
+  color: #282c34; /* Dark text color for contrast */
+  border: none;
+  padding: 10px 20px;
+  margin: 10px; /* Add margin to create space between buttons */
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.get-started {
+  background-color: #4CAF50; /* Green background for "Get Started Free" button */
+  color: white; /* White text color */
+}
+
+.get-started:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.sign-in {
+  background-color: #2196F3; /* Blue background for "Sign In" button */
+}
+
+.sign-in:hover {
+  background-color: #1976d2; /* Darker blue on hover */
+}
+
+.feature-item:hover {
+  transform: translateY(-5px);
+}
+
+.feature-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #61dafb;
+}
+
+.cta {
+  padding: 2rem;
+  text-align: center;
+  background-image: linear-gradient(to right, #6200ea, #3700b3);
+  color: white;
+}
+
+.cta h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.cta p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
