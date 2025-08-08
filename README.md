@@ -19,6 +19,15 @@ My Knowledge Hub is a full-stack personal knowledge management application built
 <img width="921" height="421" alt="image" src="https://github.com/user-attachments/assets/989391a5-7bcb-45a3-9fde-5075a3ae16a4" />
 <img width="946" height="433" alt="image" src="https://github.com/user-attachments/assets/a6d14d6d-0fd3-4f00-88a1-9c5da0379838" />
 
+To clone the repository locally:
+Run the following command in your terminal:
+
+git clone https://github.com/Shaunak-bit/my-knowledge-hub.git
+cd my-knowledge-hub
+
+for backend
+ cd ./my-knowledge-hub/knowledgehub-backend && npm start
+
 
 
 
